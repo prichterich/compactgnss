@@ -1,0 +1,8 @@
+Description of example and test files:
+
+2022-03-29-1244.oao: The original GPS file from a Motion GPS in .oao format
+2022-03-29-1244.gpy: GPY example file created from the original file with GPS Speedreader
+2022-03-29-1244.csv: Text file in .csv format created with the example code from the .gpy file
+2022-03-29-1244ExtraRecords.gpy: A .gpy file with extra "variable length" records. Parsers should able to read this file, ignoring the extra records.
+2022-03-29-1244BadRecords.gpy: A .gpy file with several records that have checksum violations. Parsers should be able to read this file 
+and identify the corrupt records.
